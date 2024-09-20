@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marginesy w Tabelach</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+        }
+        #pierwszy th, #pierwszy td {
+            padding: 10px; 
+        }
+        #drugi {
+            margin: 20px 10px; 
+        }
+        #trzeci {
+            margin: 30px 20px 10px; 
+        }
+        #czwarty {
+            margin: 40px 30px 20px 10px; 
+        }
+        #piaty {
+            margin-left: 15px; 
+            margin-right: 25px;
+            margin-top: 35px;
+            margin-bottom: 45px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Przykładowe Tabele z Marginesami</h1>
+
+    <h2>Zadanie 1: Podstawowe marginesy wewnętrzne</h2>
+    <table id="pierwszy">
+        <tr>
+            <th>Kolumna 1</th>
+            <th>Kolumna 2</th>
+        </tr>
+        <tr>
+            <td>Komórka 1</td>
+            <td>Komórka 2</td>
+        </tr>
+    </table>
+
+    <h2>Zadanie 2: Zapis Podwójny Marginesu</h2>
+    <table id="drugi">
+        <tr>
+            <th>Kolumna 1</th>
+            <th>Kolumna 2</th>
+        </tr>
+        <tr>
+            <td>Komórka 1</td>
+            <td>Komórka 2</td>
+        </tr>
+    </table>
+
+    <h2>Zadanie 3: Zapis Potrójny Marginesu</h2>
+    <table id="trzeci">
+        <tr>
+            <th>Kolumna 1</th>
+            <th>Kolumna 2</th>
+        </tr>
+        <tr>
+            <td>Komórka 1</td>
+            <td>Komórka 2</td>
+        </tr>
+    </table>
+
+    <h2>Zadanie 4: Zapis Poczwórny Marginesu</h2>
+    <table id="czwarty">
+        <tr>
+            <th>Kolumna 1</th>
+            <th>Kolumna 2</th>
+        </tr>
+        <tr>
+            <td>Komórka 1</td>
+            <td>Komórka 2</td>
+        </tr>
+    </table>
+
+    <h2>Zadanie 5: Marginesy Dla Wybranych Stron</h2>
+    <table id="piaty">
+        <tr>
+            <th>Kolumna 1</th>
+            <th>Kolumna 2</th>
+        </tr>
+        <tr>
+            <td>Komórka 1</td>
+            <td>Komórka 2</td>
+        </tr>
+    </table>
+</body>
+</html>
